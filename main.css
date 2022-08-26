@@ -1,0 +1,38 @@
+/* RESET DEFAULT BROWSER STYLES */
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body { 
+    background: url(static/tina-dawson-jAWfDKxRraI-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#images {
+    margin-top: 100px;
+    margin:50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    align-items: center;
+}
+
+nav, footer {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.692);
+    border: 5px solid rgb(60, 58, 73);
+    border-radius: 10px;
+}
+
+.img-image {
+    border-radius: 5px;
+}
